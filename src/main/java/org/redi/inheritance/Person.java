@@ -10,6 +10,22 @@ public class Person {
     private String lastName;
     private Date dateOfBirth;
     private String email;
+    //construter
+    public Person() {
+        //do anything
+    }
+
+
+
+    public Person(String firstName,String lastName,Date dateOfBirth,String email){
+     this.firstName= firstName;
+     this.lastName=lastName;
+     this.dateOfBirth=dateOfBirth;
+     this.email=email;
+
+
+
+    }
 
 
     public String getFirstName() {
